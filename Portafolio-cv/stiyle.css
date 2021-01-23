@@ -113,12 +113,13 @@ p {
   overflow-x: hidden;
   margin: 2rem auto;
   padding: 2rem 0;
-  max-width: 800px;
+  max-width: 80vw;
   background-color: var(--carousel-bg-color);
 }
 
 .carousel .slides {
   /*100% por cada slide*/
+  font-size: 2vw;
   width: 400%;
   display: flex;
   list-style: none;
@@ -418,7 +419,7 @@ progress::-moz-progress-bar {
 /***************** Utilities ***********************/
 .avatar {
   border-radius: 50%;
-  width: 150px;
+  width: 20vw;
 }
 
 .bg-gray-light {
